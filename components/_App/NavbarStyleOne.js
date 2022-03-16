@@ -61,44 +61,44 @@ const NavbarStyleOne = ({ logo }) => {
                                         <li className="nav-item">
                                             <Link href="#">
                                                 <a onClick={e => e.preventDefault()} className="dropdown-toggle nav-link">
-                                                    Home
+                                                    홈
                                                 </a>
                                             </Link>
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <Link href="/" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Home Demo - 1</a>
+                                                        <a onClick={toggleNavbar} className="nav-link">홈 데모 - 1</a>
                                                     </Link>
                                                 </li> 
 
                                                 <li className="nav-item">
                                                     <Link href="/index-2" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Home Demo - 2</a>
+                                                        <a onClick={toggleNavbar} className="nav-link">홈 데모 - 2</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/index-3" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Home Demo - 3</a>
+                                                        <a onClick={toggleNavbar} className="nav-link">홈 데모 - 3</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/index-4" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Home Demo - 4</a>
+                                                        <a onClick={toggleNavbar} className="nav-link">홈 데모 - 4</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/index-5" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Home Demo - 5</a>
+                                                        <a onClick={toggleNavbar} className="nav-link">홈 데모 - 5</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/index-6" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Home Demo - 6</a>
+                                                        <a onClick={toggleNavbar} className="nav-link">홈 데모 - 6</a>
                                                     </Link>
                                                 </li>
                                             </ul>
